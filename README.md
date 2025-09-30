@@ -41,11 +41,12 @@ To package the app as a Windows executable:
 
 1. **Install electron-builder**
 
-    ```bash
+  ```bash
     npm install --save-dev electron-builder
 
 2. **Build the .exe**
 
+  ```bash
     npm run build     # builds the React app
     npm run dist      # generates the .exe with Electron
 
