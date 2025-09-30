@@ -19,7 +19,7 @@ It allows you to add, mark, and delete tasks, with automatic data persistence us
 
 1. **Clone the repository**
 
-2. **Install dependencies**
+2. **Install dependencies**:
 
     npm install
 
