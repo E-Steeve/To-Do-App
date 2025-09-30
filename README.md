@@ -49,7 +49,7 @@ To package the app as a Windows executable:
   ```bash
     npm run build     # builds the React app
     npm run dist      # generates the .exe with Electron
-
+  ```
 
 The executable will be located in:
 
