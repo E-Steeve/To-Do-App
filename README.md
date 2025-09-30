@@ -41,7 +41,7 @@ To package the app as a Windows executable:
 
 1. **Install electron-builder**
 
-    npm install --save-dev electron-builder
+    ```npm install --save-dev electron-builder
 
 2. **Build the .exe**
 
