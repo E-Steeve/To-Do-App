@@ -1,11 +1,56 @@
+# To-Do App (Electron + React + Vite)
 
-  # Todo App
+A modern **task manager desktop application** built with **React**, **Vite**, and **Electron**.  
+It allows you to add, mark, and delete tasks, with automatic data persistence using `localStorage`.
 
-  This is a code bundle for Todo App. The original project is available at https://www.figma.com/design/lONeeRdjQzkp4Yo5MY20vv/Todo-App.
+---
 
-  ## Running the code
+## Features
 
-  Run `npm i` to install the dependencies.
+- Add new tasks  
+- Mark tasks as **completed**  
+- Delete tasks  
+- Data persists even after closing or restarting your computer  
+- Modern and responsive UI  
 
-  Run `npm run dev` to start the development server.
-  
+---
+
+## Installation & Development
+
+1. **Clone the repository**
+   git clone https://github.com/<YOUR-USERNAME>/<YOUR-REPO>.git
+   cd <YOUR-REPO>
+
+2. Install dependencies
+
+  npm install
+
+3. Run in development mode
+
+  Start the React app:
+
+    npm run dev
+
+  Start the Electron app (in another terminal):
+
+    npm run electron
+
+## Build the Executable (.exe)
+
+To package the app as a Windows executable:
+
+1. Install electron-builder
+
+  npm install --save-dev electron-builder
+
+2. Build the .exe
+
+  npm run build     # builds the React app
+  npm run dist      # generates the .exe with Electron
+
+
+The executable will be located in:
+
+  dist/
+
+You can share this .exe with your friends!
