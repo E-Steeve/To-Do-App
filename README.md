@@ -18,14 +18,12 @@ It allows you to add, mark, and delete tasks, with automatic data persistence us
 ## Installation & Development
 
 1. **Clone the repository**
-   git clone https://github.com/<YOUR-USERNAME>/<YOUR-REPO>.git
-   cd <YOUR-REPO>
 
-2. Install dependencies
+2. **Install dependencies**
 
-  npm install
+    npm install
 
-3. Run in development mode
+3. **Run in development mode**
 
   Start the React app:
 
@@ -39,14 +37,14 @@ It allows you to add, mark, and delete tasks, with automatic data persistence us
 
 To package the app as a Windows executable:
 
-1. Install electron-builder
+1. **Install electron-builder**
 
-  npm install --save-dev electron-builder
+    npm install --save-dev electron-builder
 
-2. Build the .exe
+2. **Build the .exe**
 
-  npm run build     # builds the React app
-  npm run dist      # generates the .exe with Electron
+    npm run build     # builds the React app
+    npm run dist      # generates the .exe with Electron
 
 
 The executable will be located in:
