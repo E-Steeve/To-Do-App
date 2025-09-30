@@ -43,6 +43,7 @@ To package the app as a Windows executable:
 
   ```bash
     npm install --save-dev electron-builder
+  ```
 
 2. **Build the .exe**
 
